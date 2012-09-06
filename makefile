@@ -1,3 +1,8 @@
+all:
+	make bin/zap
+	make bin/pick
+	make bin/idiff
+
 bin/zap:
 	cc src/zap.c -o bin/zap
 
